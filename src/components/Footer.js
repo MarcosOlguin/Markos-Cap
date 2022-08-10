@@ -10,17 +10,34 @@ function Footer() {
       <div className="contact">
         <p>Contact</p>
         <div className="linkedin">
-          <a href="https://www.linkedin.com/in/marcos-olguin-fullstack/">
+          <a
+            href="https://www.linkedin.com/in/marcos-olguin-fullstack/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Linkedin
           </a>
           <img
-            className="img"
+            className="img-linkedin"
             src="https://raw.githubusercontent.com/MarcosOlguin/Markos-Cap/main/src/recursos/linkedin%20(1).png"
             alt="img"
           />
         </div>
-        <span>Github</span>
-        <span>Email</span>
+
+        <div className="gitbuh">
+          <a
+            href="https://github.com/MarcosOlguin"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>
+          <img
+            className="img-github"
+            src="https://raw.githubusercontent.com/MarcosOlguin/Markos-Cap/main/src/recursos/github.png"
+            alt="img"
+          />
+        </div>
       </div>
     </footer>
   );

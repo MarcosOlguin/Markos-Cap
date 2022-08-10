@@ -16,9 +16,7 @@ footer p {
 .contact {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
+  align-items: flex-start;
   font-family: "Poppins", sans-serif;
   color: #ecf2fb;
 }
@@ -29,7 +27,20 @@ footer p {
   align-items: center;
 }
 
-.img {
-  padding-left: 1rem;
-  width: 40px;
+.img-linkedin {
+  width: 20px;
+  margin-left: 10px;
+  align-self: center;
+}
+
+.github {
+  padding: 10rem;
+}
+
+.img-github {
+  width: 20px;
+  margin-left: 10px;
+  align-self: flex-end;
+  margin-bottom: -5px;
+  padding-top: 10px;
 }
