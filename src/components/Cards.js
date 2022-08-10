@@ -8,7 +8,6 @@ import Cripto from "./Cripto";
 import Error404 from "./Error404";
 import { UseModal } from "./hooks/useModal";
 import { useFetch } from "./hooks/useFetch";
-import Nomics from "./Nomics";
 import Footer from "./Footer";
 
 const initialForm = {

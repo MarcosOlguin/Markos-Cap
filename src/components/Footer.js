@@ -9,7 +9,16 @@ function Footer() {
 
       <div className="contact">
         <p>Contact</p>
-        <span>Linkedin</span>
+        <div className="linkedin">
+          <a href="https://www.linkedin.com/in/marcos-olguin-fullstack/">
+            Linkedin
+          </a>
+          <img
+            className="img"
+            src="https://raw.githubusercontent.com/MarcosOlguin/Markos-Cap/main/src/recursos/linkedin%20(1).png"
+            alt="img"
+          />
+        </div>
         <span>Github</span>
         <span>Email</span>
       </div>
