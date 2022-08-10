@@ -1,0 +1,31 @@
+.nomics {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: "Poppins", sans-serif;
+  align-self: center;
+  margin-bottom: 0rem;
+  font-size: 13px;
+  padding: 0rem;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+a {
+  color: aliceblue;
+  border-bottom: solid thin;
+  padding-left: 0rem;
+}
+
+@media screen and (max-width: 540px) {
+  a {
+    color: aliceblue;
+    border-bottom: solid thin;
+    padding-left: 0.3rem;
+  }
+}
