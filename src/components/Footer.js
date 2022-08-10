@@ -12,10 +12,7 @@ function Footer() {
         <span>Linkedin</span>
         <span>Github</span>
         <span>Email</span>
-        <img
-          src="https://raw.githubusercontent.com/gcoronelc/imagenes/master/24x24/Banned%20User.png"
-          alt="img"
-        />
+        <img src="" alt="img" />
       </div>
     </footer>
   );
