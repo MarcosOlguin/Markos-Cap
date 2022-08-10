@@ -12,7 +12,6 @@ function Footer() {
         <span>Linkedin</span>
         <span>Github</span>
         <span>Email</span>
-        <img src="" alt="img" />
       </div>
     </footer>
   );
