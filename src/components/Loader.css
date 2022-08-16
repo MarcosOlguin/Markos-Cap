@@ -34,3 +34,22 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width: 850px) {
+  .lds-ring {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 25%;
+    left: 40%;
+  }
+}
+@media screen and (max-height: 1280px) and (width: 720px) {
+  .lds-ring {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 10%;
+    left: 40%;
+  }
+}
