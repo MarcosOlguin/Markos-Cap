@@ -4,10 +4,11 @@ import PriceChange from "./PriceChange";
 import "./Table.css";
 
 function Tables({ criptos, handleClick, handleClickNumbers }) {
-  let filter1 = criptos.filter((e) => e["1d"]);
-  let filter = filter1.filter((e) => e["1d"].price_change);
+  let filter1d = criptos.filter((e) => e["1d"]);
+  let filter7d = filter1d.filter((e) => e["7d"]);
+  let filter30d = filter7d.filter((e) => e["30d"]);
+  let filter = filter30d.filter((e) => e["1d"].price_change);
 
-  console.log(filter);
   return (
     <>
       <table>
